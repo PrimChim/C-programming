@@ -1,0 +1,5 @@
+Name: pritam,Age: 21,Salary: 1500.00
+Name: simon,Age: 19,Salary: 1400.00
+Name: niraj,Age: 18,Salary: 1450.00
+Name: sugam,Age: 1500,Salary: 1500.00
+Name: prashanna,Age: 18,Salary: 1200.00

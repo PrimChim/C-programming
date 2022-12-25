@@ -1,0 +1,10 @@
+Roll no: 1
+Name: hero there
+Roll no: 2
+Name: gunda here
+Roll no: 3
+Name: simon gunda
+Roll no: 4
+Name: pritam hero
+Roll no: 5
+Name: niraj gunda
