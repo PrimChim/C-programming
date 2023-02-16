@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "lodepng.h"
 
-void main(){
+int main(){
 	unsigned char *image;
 	unsigned int h,w;
 	int error = lodepng_decode32_file(&image,&h,&w,"luffy.png");
 	printf("%s",lodepng_error_text(error));
-	printf("height: %d, width %d", h,w);
+	printf("h: %d, w %d", h,w);
 	printf("\nDisplaying information of image\n");
 	
 	int i;
@@ -20,4 +20,6 @@ void main(){
 
 	unsigned error1 = lodepng_encode32_file("luffynegatie.png", neg, h, w);
 	if(error1) printf("error %u: %s\n", error1, lodepng_error_text(error));
+	
+	return 0;
 }
